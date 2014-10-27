@@ -33,5 +33,38 @@ Currently there is no assumption.
 Scope has already been defined. Out of scope items are also defined.
 
 ### 1.	Entity Relation Diagram (ERD)
-![Alt Text](https://github.com/humazafar/testRepo/blob/master/Cobone.png?raw=true)
+![Alt Text](https://github.com/humazafar/testRepo/blob/master/data%20model%20cobone.PNG?raw=true)
 
+### 2.	Object Inventory
+Below are the names of the standard and custom objects which are part of Cobone Implementation.
+
+| Object Name  | Description  | Custom/Native  |
+|:-:|:-:|:-:|
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
