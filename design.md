@@ -90,3 +90,20 @@ Below are the names of the standard and custom objects which are part of Cobone 
 | Qualified |
 | Qualified - Sales Executive |
 | Qualified - Sales Manager |
+
+##### 3.3.2	Validation Rule Information
+| Validation Rule  | Error Message  | Description  |
+|:-:|:-:|:-:|
+| Competitor_Information  | Please enter the details of the Competitors  | On Competitor Website is selected and Competitor is not specified.  |
+| One_Contact_Info  | Please enter either the Phone or Mobile Phone  | At least one contact information should be present  |
+
+##### 3.3.3	Lead Process Information
+| Lead Process Name  | Lead Status Values  |
+|:-:|:-:|
+| Lead Qualification Process  | Contacted (Converted), Open, Qualified (Converted), Unqualified  |
+
+##### 3.3.4	Record Type Information
+| Record Type Layout Name  | Assigned Lead Process  | Assigned Page Layout  |
+|:-:|:-:|:-:|
+| Pre-Qualified  | Lead Qualification Process  | Pre-Qualified, Pre-Qualified Sales Manager  |
+| Qualified  | Lead Qualification Process  | Qualified Sales Manager, Qualifies Sales Executive  |
