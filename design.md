@@ -71,7 +71,6 @@ Below are the names of the standard and custom objects which are part of Cobone 
 ### 3.	Technical Specification
 #### 3.1	Require Activations
 ##### 3.1.1	Activation Information
-
 | Items Require Activation By Salesforce.com  |
 |:-:|
 | Multi-Currency / Advanced Multi-Currency |
@@ -81,3 +80,13 @@ Below are the names of the standard and custom objects which are part of Cobone 
 |:-:|
 | Global search and feed search are automatically enabled when Chatter is enabled. However, enabling Chatter disables sidebar search and advanced search. Search for salesforce.com records and tags using: **Sidebar Search:** From the sidebar search box you can search a subset of objects and fields. You can use wildcards and filters to refine your search. **Advanced Search:** Click Advanced Search... in the sidebar to search a subset of objects in combination and more fields than sidebar search, including custom fields and long text fields such as descriptions, notes, and task and event comments. You can use wildcards, operators, and filters to refine your search. **Global Search:** From the header search box you can search more objects than sidebar search and advanced search, including articles, documents, products, solutions, and Chatter feeds, files, groups, topics, and people. You can also search more fields than sidebar search, including custom fields, and long text fields such as descriptions, notes, and task and event comments. You can use wildcards, operators, and filters to refine your search. Global search keeps track of which objects you use and how often you use them, and arranges the search results accordingly. Search results for the objects you use most frequently appear at the top of the list. |
 
+#### 3.3	Lead
+##### 3.3.1	Page Layout Information
+| Page Layout Name |
+|:-:|
+| Lead Layout |
+| Pre-Qualified |
+| Pre-Qualified - Sales Manager |
+| Qualified |
+| Qualified - Sales Executive |
+| Qualified - Sales Manager |
