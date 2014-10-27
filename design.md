@@ -40,15 +40,21 @@ Below are the names of the standard and custom objects which are part of Cobone 
 
 | Object Name  | Description  | Custom/Native  |
 |:-:|:-:|:-:|
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| Chatter  |  Chatter is a Salesforce collaboration application that helps you connect with people and share business information securely and in real time.
+Chatter, Profile, People, Groups, and Files tabs are available by default in the Chatter app.
+ | Native  |
+| User  | In Salesforce, every user is identified by a username, password, and a single profile. The profile determines what tasks users can perform, what data they see, and what they can do with the data.
+You can control a user's access to data in several ways:
+->To control access to applications and objects, including fields and record types within objects, use profiles and permission sets.
+->To control access to specific records, use sharing settings and rules.
+  | Native  |
+| Lead  | A lead is a prospect or potential opportunity - a person you met at a conference who expressed interest or someone who filled out a form on your company’s website.   |  Native |
+| Account  | Accounts are your organization’s customers, competitors, and partners. Each account stores information such as name, address, and phone numbers. For each account, you can store related information such as opportunities, activities, cases, partners, contracts, and notes.  |  Native |
+|  Contact | Contacts are the people associated with your business accounts that you need to track in Salesforce. For each contact, you can store various kinds of information, such as phone numbers, addresses, titles, and roles in a deal.  |  Native |
+| Opportunity (Deal)  | Opportunities refer to deals information in salesforce.  |  Native |
+| Cases  | Represents a case, which is a customer issue or problem.   |  Native |
+| Contract  | Contracts are agreements between you and your customers for a type of customer support.   |  Native |
+| Contract Line  |   | Custom  |
 |   |   |   |
 |   |   |   |
 |   |   |   |
