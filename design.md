@@ -41,33 +41,30 @@ Below are the names of the standard and custom objects which are part of Cobone 
 | Object Name  | Description  | Custom/Native  |
 |:-:|:-:|:-:|
 | Chatter  |  Chatter is a Salesforce collaboration application that helps you connect with people and share business information securely and in real time. Chatter, Profile, People, Groups, and Files tabs are available by default in the Chatter app. | Native  |
-| User  | In Salesforce, every user is identified by a username, password, and a single profile. The profile determines what tasks users can perform, what data they see, and what they can do with the data.
-You can control a user's access to data in several ways:
-->To control access to applications and objects, including fields and record types within objects, use profiles and permission sets.
-->To control access to specific records, use sharing settings and rules.  | Native  |
+| User  | In Salesforce, every user is identified by a username, password, and a single profile. The profile determines what tasks users can perform, what data they see, and what they can do with the data. You can control a user's access to data in several ways: a) To control access to applications and objects, including fields and record types within objects, use profiles and permission sets. b) To control access to specific records, use sharing settings and rules.  | Native  |
 | Lead  | A lead is a prospect or potential opportunity - a person you met at a conference who expressed interest or someone who filled out a form on your company’s website.   |  Native |
 | Account  | Accounts are your organization’s customers, competitors, and partners. Each account stores information such as name, address, and phone numbers. For each account, you can store related information such as opportunities, activities, cases, partners, contracts, and notes.  |  Native |
-|  Contact | Contacts are the people associated with your business accounts that you need to track in Salesforce. For each contact, you can store various kinds of information, such as phone numbers, addresses, titles, and roles in a deal.  |  Native |
+| Contact | Contacts are the people associated with your business accounts that you need to track in Salesforce. For each contact, you can store various kinds of information, such as phone numbers, addresses, titles, and roles in a deal.  |  Native |
 | Opportunity (Deal)  | Opportunities refer to deals information in salesforce.  |  Native |
 | Cases  | Represents a case, which is a customer issue or problem.   |  Native |
 | Contract  | Contracts are agreements between you and your customers for a type of customer support.   |  Native |
 | Contract Line  |   | Custom  |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| Activities (Tasks)  | Activities include tasks, calendar events, and requested meetings. User can define and track activities for many different objects, including leads, accounts, contacts, opportunities and custom objects.  |  Native |
+| Activities (Events)  | Activities include tasks, calendar events, and requested meetings. User can define and track activities for many different objects, including leads, accounts, contacts, opportunities and custom objects.  |  Native |
+| Notes& Attachments  | User can create, view, and edit notes and add attachments from the Notes and Attachments related list on selected detail pages such as accounts, contacts, leads, opportunities, and custom objects. The size limit for an attached file is 5 MB when attached directly to the related list, including a file attached to a solution. When a file is attached to a record’s Chatter feed it’s added to the Notes and Attachments related list as a feed attachment and the file size limit is 2 GB. The size limit for all files attached to an email is 10 MB.  |  Native |
+| Document  | A document library is a place to store files without attaching them to accounts, contacts, opportunities, or other records. Each document in the document library resides in a folder. The folder’s attributes determine the accessibility of the folder and the documents within it.  |  Native |
+| Reports  |   |  Native |
+| Dashboards  |   |  Native |
+| Cobone API  |  Custom object used for specifying API Details and credentials |  Custom |
+| Conditions And Highlights Master  |   |  Custom |
+| Country  |   |  Custom |
+| Customer  |   |  Custom |
+| Deal Outlets  |   | Custom  |
+| Hotel  |   | Custom  |
+| Purchase  |   | Custom  |
+| Refund/Reward  |   | Custom  |
+| Scheduling  |   | Custom  |
+| Score Card  |   | Custom  |
+| Venue  |   | Custom  |
+| Vertical  |   | Custom  |
+|   |   | Custom  |
