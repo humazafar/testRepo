@@ -1,1 +1,1 @@
-![alt text](https://github.com/humazafar/testRepo/blob/master/Cobone.png?raw=true)
+<img style="float: center" src="https://github.com/humazafar/testRepo/blob/master/Cobone.png?raw=true">
