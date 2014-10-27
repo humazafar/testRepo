@@ -67,4 +67,13 @@ Below are the names of the standard and custom objects which are part of Cobone 
 | Score Card  |   | Custom  |
 | Venue  |   | Custom  |
 | Vertical  |   | Custom  |
-|   |   | Custom  |
+
+### 3.	Technical Specification
+#### 3.1	Require Activations
+##### 3.1.1	Activation Information
+
+| Items Require Activation By Salesforce.com  |
+|:-:|
+| Multi-Currency / Advanced Multi-Currency |
+
+
