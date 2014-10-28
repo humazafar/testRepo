@@ -857,3 +857,13 @@ A profile contains user permissions and access settings that control what users 
 | MockHttpResponseGenerator  | Test class for Http call to integration API.  |
 | MockHttpResponseGeneratorDeal  | Test class for Http call to integration API.  |
 
+##### 3.27	Visual Force Tabs
+| Apex Class Name  | Description |
+|:-:|:-:|
+| Deal Dashboard  | This tab shows Cobone Dashboard. Sales Person ID (on user record in salesforce) is required for this tab.  |
+| Deal End  | Deal closing tab.  |
+| Deal Report  | Used for generating deal report.  |
+| Deal Scheduling  | Used for scheduling deals.  |
+| Triperna Dashboard  | This tab shows Triperna Dashboard. Sales Person ID (on user record in salesforce) is required for this tab.  |
+| Triperna Deal End  | Deal closing tab.  |
+| Triperna Scheduling  | Used for scheduling Triperna deals.  |
