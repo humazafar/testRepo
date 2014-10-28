@@ -1,8 +1,8 @@
-		<img src="https://github.com/humazafar/testRepo/blob/master/Cobone.png?raw=true" class="center">
+![ Alt ](https://github.com/humazafar/testRepo/blob/master/Cobone.png?raw=true)
 
 # Technical Design Document
 
-		<img src="https://github.com/humazafar/testRepo/blob/master/Raawee.png?raw=true" class="center">
+![ Alt ](https://github.com/humazafar/testRepo/blob/master/Raawee.png?raw=true)
 
 <!--BREAK-->
 
