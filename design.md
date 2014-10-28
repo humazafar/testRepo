@@ -1,5 +1,5 @@
 ![ Alt ](https://github.com/humazafar/testRepo/blob/master/Cobone.png?raw=true)
-
+<img src="https://github.com/humazafar/testRepo/blob/master/Cobone.png?raw=true" class="center">
 # Technical Design Document
 
 ![ Alt ](https://github.com/humazafar/testRepo/blob/master/Raawee.png?raw=true)
