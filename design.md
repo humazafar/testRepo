@@ -13,7 +13,6 @@
 |  09/23/2013 |  1.1 |  Huma Zafar | Updated Apex Classes, Visual force pages and Test classes  |  3.24, 3.25 & 3.26 |
 
 [TOC]
-### Table of Contents
 
 <!--BREAK-->
 
@@ -770,47 +769,91 @@ A profile contains user permissions and access settings that control what users 
 | Vertical  | Public Read/Write  | Public Read/Write  |
 
 ##### 3.24	Apex Classes
-| Apex Class  Name  | Description |
+| Apex Class Name  | Description |
 |:-:|:-:|
 | ApplicationException  | Exception class.  |
-| batch_SweepInactiveAccounts  |   |
-| CallIntegration  |   |
-| cntl_Integration_ActiveButton  |   |
-| cntl_misc  |   |
-| ctlr_contractNavPage  |   |
-| ctlr_dealContainer  |   |
-| ctlr_deal_closing  |   |
-| ctlr_deal_closingTriperna  |   |
-| ctlr_deal_dashboard  |   |
-| ctlr_deal_dashboardTriperna  |   |
-| ctlr_deal_location  |   |
-| ctlr_deal_planning2  |   |
-| ctlr_deal_planning_Triperna  |   |
-| ctlr_deal_report  |   |
-| ctlr_deal_report_csv  |   |
-| ctlr_deal_scheduling  |   |
-| ctlr_deal_scheduling_Triperna  |   |
-| Deal  |   |
-| DealClosingUtil  |   |
-| dealHelper  |   |
-| InvokeUpdateTriggerBatch  |   |
-| Merchant  |   |
-| RelaunchClass  |   |
-| schedule_SweepInactiveAccounts  |   |
+| batch_SweepInactiveAccounts  | Batch class to update Email alert flag for all accounts having Activity Level as Inactive Account, Open Account or No Activity.  |
+| CallIntegration  | This class is the parent class to call all integrations.  |
+| cntl_Integration_ActiveButton  | This class is called by Activate/Inactive button on Opportunity(Deal).  |
+| cntl_misc  | Utlity class for creating integration API End point URL.  |
+| ctlr_contractNavPage  | This controller is for the intermediate navigation page which directs to the relevant PDF for contract templates.  |
+| ctlr_dealContainer  | Deal container class.  |
+| ctlr_deal_closing  | This class serves as controller for deal closing VF page where deals can be ended.  |
+| ctlr_deal_closingTriperna  | This class serves as controller for deal closing VF page where Triperna deals can be ended.  |
+| ctlr_deal_dashboard  | This class is used to display deals dashboard from cool deals.  |
+| ctlr_deal_dashboardTriperna  | This class is used to display Triperna deals dashboard from cool deals.  |
+| ctlr_deal_location  | This class serves as controller for deal location page where a location is added to deal.  |
+| ctlr_deal_planning2  | Controller class for deal scheduling page.  |
+| ctlr_deal_planning_Triperna  | Controller class for deal scheduling page Triperna.  |
+| ctlr_deal_report  | Main controller for redirecting to csv report.  |
+| ctlr_deal_report_csv  | Works as controller for generating report CSV  |
+| ctlr_deal_scheduling  | Deal scheduling controller class  |
+| ctlr_deal_scheduling_Triperna  | Deal scheduling controller class for Triperna.  |
+| Deal  | This class is the main structure of Deal for integration.  |
+| DealClosingUtil  | Utiliting class for centralizing methods used in ctlr_deal_closing and ctlr_deal_closingTriperna.  |
+| dealHelper  | Deal Helper class used in Trigger.  |
+| InvokeUpdateTriggerBatch  | Batch class for updating records to invoke trigger.  |
+| Merchant  | This class is the main structure of Merchant for integration.  |
+| RelaunchClass  | Class used for Re-launching a deal.  |
+| schedule_SweepInactiveAccounts  | Scheduler class for batch_SweepInactiveAccounts.  |
 
-|   |
-|   |
-|   |
+##### 3.25	Visual Force Pages
+| Visual Force Page Name  | Visualforce Controller / Extension | Purpose  |
+|:-:|:-:|:-:|
+| CaseTabVfp  | Standard Controller Case  | This page is used as a tab view for Cases Tab.  |
+| con_A  | Standard Controller Contract  | Contract Agreement PDF Page Cobone.  |
+| con_activityCobone  | Standard Controller Contract  | Supply Agreement PDF Page Cobone.  |
+| con_activityTriperna  | Standard Controller Contract  | Supply Agreement PDF Page Triperna.  |
+| con_B  | Standard Controller Contract  | Contract Agreement PDF Page Cobone.  |
+| con_bundleA  | Standard Controller Contract  | Contract Agreement PDF Page Cobone.  |
+| con_bundleB  | Standard Controller Contract  | Contract Agreement PDF Page Cobone.  |
+| con_bundleC  | Standard Controller Contract  | Contract Agreement PDF Page Cobone.  |
+| con_C  | Standard Controller Contract  | Contract Agreement PDF Page Cobone.  |
+| con_NavPage  | Standard Controller Contract, Extensions ctlr_contractNavPage  | Contract PDF Navigation Page.  |
+| con_partnerFixed  | Standard Controller Contract  | Partnership Agreement PDF.  |
+| con_partnerVar  | Standard Controller Contract  | Partnership Agreement PDF.  |
+| con_Redemption  | Standard Controller Contract  | Supply Agreement PDF Page Cobone.  |
+| con_Redemption  | Standard Controller Contract  | Supply Agreement PDF Page Cobone.  |
+| con_SaudiaPartArabic  | Standard Controller Contract  | Supply Agreement PDF Page Cobone in Arabic.  |
+| con_SaudiaPartEnglish  | Standard Controller Contract  | Supply Agreement PDF Page Cobone in English.  |
+| con_travelNet  | Standard Controller Contract  | Travel Supply Agreement PDF Page Cobone.  |
+| con_travelVar  | Standard Controller Contract  | Travel Supply Agreement PDF Page Cobone.  |
+| con_triperna  | Standard Controller Contract  | Triperna Partnership and Supply Agreement PDF.  |
+| dealPlanningCSS  | N/A  | Css for Deal planning page.  |
+| dealSchedulingScreenTriperna  | Controller ctlr_deal_planning_Triperna  | Deal scheduling Triperna Page.  |
+| deal_closing  | Controller ctlr_deal_closing   | Deal Closing Page.  |
+| deal_closingTriperna  | Controller ctlr_deal_closingTriperna  | Deal Closing Page Triperna.  |
+| deal_dashboard  | Controller ctlr_deal_dashboard  | Deal dashboard page showing iframe.  |
+| deal_dashboardTriperna  | Controller ctlr_deal_dashboardTriperna  | Deal dashboard page showing iframe for Triperna.  |
+| deal_location  | Standard Controller Opportunity, Extensions ctlr_deal_location  | Deal Location Page  |
+| deal_planning2  | Controller ctlr_deal_planning2  | Deal Planning Page.  |
+| deal_report  |   | Deal Report Input dates page.  |
+| deal_report_csv  | Deal Report page for downloading CSV Report.  | Deal Report page for downloading CSV Report.  |
+| deal_scheduling  | Controller ctlr_deal_scheduling  | Deal Scheduling page.  |
+| deal_schedulingTriperna  | Controller ctlr_deal_scheduling_Triperna  | Deal Scheduling page for Triperna.  |
+| vfp_dealSchedulingScreen  | Controller ctlr_deal_planning2  | Deal Scheduling page.  |
 
-|   |   |
-|   |   |
-
-|   |   |   |
-|   |   |   |
-|   |   |   |
-
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-
+##### 3.26	Test Classes
+| Apex Class Name  | Description |
+|:-:|:-:|
+| ActivityTrgTestClass  | Test class for activity trigger.  |
+| ActivityTrgTestClass  | Test class for CallIntegration.  |
+| CallIntegrationUpdateTest  | Test class for CallIntegration.  |
+| CaseTrgTestClass  | Test class for CaseTrg.  |
+| cntl_Integration_ActiveButtonTest  | Test class for  cntl_Integration_ActiveButton.  |
+| test2_deal_planning2  | Test class for ctlr_deal_planning2.  |
+| test3_deal_planning2  | Test class for ctlr_deal_planning2.  |
+| TestClass_Triggers  | Test class for all triggers.  |
+| test_cntl_misc  | Test class for cntl_misc.  |
+| test_contractNavPage  | Test class for ctlr_contractNavPage.  |
+| test_contractTrig  | Test class for Contract Trigger.  |
+| test_DealHelper  | Test class for dealHelper.  |
+| test_deal_closing  | Test class for ctlr_deal_closing.  |
+| test_deal_closingTriperna  | Test class for ctlr_deal_closingTriperna.  |
+| test_deal_dashboard  | Test class for ctlr_deal_dashboard & ctlr_deal_dashboardTriperna.  |
+| test_deal_location  | Test class for ctlr_deal_location.  |
+| test_deal_planning2  | Test class for ctlr_deal_planning2.  |
+| test_deal_report  | Test class for ctlr_deal_report.  |
+| MockHttpResponseGenerator  | Test class for Http call to integration API.  |
+| MockHttpResponseGeneratorDeal  | Test class for Http call to integration API.  |
 
